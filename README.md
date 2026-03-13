@@ -1,8 +1,14 @@
 # Diablo IV Spam Controller
 
-A small **AutoHotkey v2 tool** that allows you to spam selected skill keys in **Diablo IV** with a toggle hotkey and an in-game overlay.
+A lightweight **AutoHotkey v2 tool** that allows you to spam selected ability keys in **Diablo IV** with a toggle hotkey and a small in-game overlay.
 
 The tool provides a simple UI to enable or disable default Diablo IV ability keys (**Q, W, E, R**) and control the spam interval.
+
+---
+
+## Screenshot
+
+![Diablo IV Spam Controller](https://i.imgur.com/W6uSREw.png)
 
 ---
 
@@ -18,31 +24,12 @@ The tool provides a simple UI to enable or disable default Diablo IV ability key
 
 ---
 
-## Preview
-
-Main window includes:
-
-* Key selection checkboxes
-* Interval configuration
-* Overlay toggle
-* Start / Stop controls
-* Status indicator
-
-Overlay shows:
-
-```
-Spam: ON
-Spam: OFF
-```
-
----
-
 ## Requirements
 
-* **Windows**
+* Windows
 * **AutoHotkey v2**
 
-Download AutoHotkey v2 here:
+Download AutoHotkey v2:
 
 https://www.autohotkey.com/
 
@@ -51,7 +38,7 @@ https://www.autohotkey.com/
 ## Installation
 
 1. Install **AutoHotkey v2**
-2. Download or clone this repository
+2. Download or clone the repository
 
 ```
 git clone https://github.com/YOURNAME/diablo4-spam-controller.git
@@ -67,10 +54,10 @@ DiabloIV_Spam.ahk
 
 ## Usage
 
-1. Launch the script
-2. Configure options in the UI
+1. Start the script
+2. Configure the settings in the UI
 3. Click **Start**
-4. Open **Diablo IV**
+4. Launch **Diablo IV**
 
 ### Hotkeys
 
@@ -81,8 +68,8 @@ DiabloIV_Spam.ahk
 
 Spam only runs when:
 
-* The script is started
-* Spam is toggled ON
+* the script is started
+* spam is toggled ON
 * **Diablo IV** is the active window
 
 ---
@@ -100,7 +87,7 @@ Enable or disable the default Diablo IV skill keys:
 
 ### Interval
 
-Controls how fast the keys are spammed.
+Controls how fast keys are spammed.
 
 Example:
 
@@ -114,22 +101,12 @@ Lower values = faster key spam.
 
 ## Overlay
 
-When enabled, a small overlay appears while **Diablo IV** is focused showing:
+When enabled, a small overlay appears while **Diablo IV** is focused showing the current state:
 
 ```
 Spam: ON
 Spam: OFF
 ```
-
----
-
-## Safety
-
-This script:
-
-* Only sends input to **Diablo IV.exe**
-* Only works when the game window is active
-* Can be stopped instantly with **F10**
 
 ---
 
