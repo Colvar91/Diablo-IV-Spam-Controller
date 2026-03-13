@@ -1,123 +1,55 @@
 # Diablo IV Spam Controller
 
-A lightweight **AutoHotkey v2 tool** that allows you to spam selected ability keys in **Diablo IV** with a toggle hotkey and a small in-game overlay.
+A small **AutoHotkey v2 tool** to spam selected skill keys in Diablo IV.
 
-The tool provides a simple UI to enable or disable default Diablo IV ability keys (**Q, W, E, R**) and control the spam interval.
+![Downloads](https://img.shields.io/github/downloads/Colvar91/Diablo-IV-Spam-Controller/total)
+![Release](https://img.shields.io/github/v/release/Colvar91/Diablo-IV-Spam-Controller)
+![Stars](https://img.shields.io/github/stars/Colvar91/Diablo-IV-Spam-Controller)
 
----
-
-## Screenshot
-
-![Diablo IV Spam Controller](https://i.imgur.com/W6uSREw.png)
+![Screenshot](https://i.imgur.com/W6uSREw.png)
 
 ---
 
 ## Features
 
-* Toggle spam **ON / OFF with F8**
-* Emergency exit with **F10**
-* Simple configuration UI
-* Enable or disable individual keys (**Q / W / E / R**)
+* Toggle spam **ON / OFF**
+* Select keys **Q / W / E / R**
 * Adjustable spam interval
-* Optional **in-game overlay**
-* Only sends input when **Diablo IV is the active window**
+* Optional overlay showing spam status
+* Only works when **Diablo IV** is the active window
 
 ---
 
-## Requirements
+## Download
 
-* Windows
-* **AutoHotkey v2**
+Download the latest version:
 
-Download AutoHotkey v2:
+https://github.com/Colvar91/Diablo-IV-Spam-Controller/releases/latest
+
+Requires **AutoHotkey v2**
 
 https://www.autohotkey.com/
 
 ---
 
-## Installation
+## Hotkeys
 
-1. Install **AutoHotkey v2**
-2. Download or clone the repository
-
-```
-git clone https://github.com/YOURNAME/diablo4-spam-controller.git
-```
-
-3. Run the script
-
-```
-DiabloIV_Spam.ahk
-```
+| Key     | Function    |
+| ------- | ----------- |
+| **F8**  | Toggle spam |
+| **F10** | Exit script |
 
 ---
 
 ## Usage
 
 1. Start the script
-2. Configure the settings in the UI
+2. Configure keys and interval
 3. Click **Start**
-4. Launch **Diablo IV**
-
-### Hotkeys
-
-| Key | Function             |
-| --- | -------------------- |
-| F8  | Toggle spam ON / OFF |
-| F10 | Exit script          |
-
-Spam only runs when:
-
-* the script is started
-* spam is toggled ON
-* **Diablo IV** is the active window
-
----
-
-## Configuration
-
-### Keys
-
-Enable or disable the default Diablo IV skill keys:
-
-* Q
-* W
-* E
-* R
-
-### Interval
-
-Controls how fast keys are spammed.
-
-Example:
-
-```
-120 ms
-```
-
-Lower values = faster key spam.
-
----
-
-## Overlay
-
-When enabled, a small overlay appears while **Diablo IV** is focused showing the current state:
-
-```
-Spam: ON
-Spam: OFF
-```
-
----
-
-## Disclaimer
-
-Use at your own risk.
-
-Automation tools may violate the terms of service of some games. This project is provided for educational purposes only.
+4. Use **F8** in-game to toggle spam
 
 ---
 
 ## License
 
-MIT License
+MIT
